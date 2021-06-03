@@ -1,10 +1,10 @@
 
 .intro {
   background-color: #fff;
-  position:relative;
+  position: relative;
   align-items: center;
   background-image: url("./header-shapes\ mobile.png");
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: initial;
   height: 500px;
@@ -14,7 +14,6 @@
   margin-right: 1vh;
   justify-content: center;
   display: flex;
-  
 }
 
 .icon {
