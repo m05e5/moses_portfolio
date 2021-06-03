@@ -8,6 +8,7 @@
   position: relative;
   align-items: center;
   background-image: url("./Header_bg.svg");
+  background-position: initial;
   height: 70vh;
   margin-top: 5vh;
   margin-bottom: 3vh;
