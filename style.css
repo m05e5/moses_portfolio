@@ -1,21 +1,20 @@
-/*
-.header{
-    display: flex;
-    flex-direction: row;
-} */
+
 .intro {
   background-color: #fff;
-  position: relative;
+  position:relative;
   align-items: center;
-  background-image: url("./Header_bg.svg");
-  background-size: cover;
-  height: 90vh;
+  background-image: url("./header-shapes\ mobile.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: initial;
+  height: 500px;
   margin-top: 5vh;
   margin-bottom: 3vh;
   margin-left: 3vh;
   margin-right: 1vh;
   justify-content: center;
   display: flex;
+  
 }
 
 .icon {
