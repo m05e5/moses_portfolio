@@ -1,4 +1,4 @@
-/* 
+/*
 .header{
     display: flex;
     flex-direction: row;
@@ -9,7 +9,7 @@
   align-items: center;
   background-image: url("./Header_bg.svg");
   background-size: cover;
-  height: 90vh;  
+  height: 90vh;
   margin-top: 5vh;
   margin-bottom: 3vh;
   margin-left: 3vh;
@@ -31,7 +31,6 @@ h1 {
   font-family: fantasy, sans-serif;
   font-style: normal;
   display: flex;
-  /* align-items: center; */
   letter-spacing: 0.37px;
   color: #091e42;
   font-weight: 700;
@@ -43,11 +42,11 @@ p {
   display: flex;
   /* align-items: center; */
   letter-spacing: 0.37px;
-  color: #091e42;   
+  color: #091e42;
 }
 
 #navbarNavDropdown {
- flex-flow: row-reverse;
+  flex-flow: row-reverse;
 }
 
 .nav-logo {
@@ -57,22 +56,23 @@ p {
   font-weight: 600;
   color: #6070ff;
   text-decoration: none;
-  font-size: 25;
+  font-size: 25px;
 
 }
+
 .navbar-toggler-icon {
   color: #6070ff;
 }
 
 .bil {
-  color:#6070ff;
+  color: #6070ff;
   margin-right: 20px;
 }
 
 .let {
-  color:#7f8Cff;
+  color: #7f8cff;
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
 }
