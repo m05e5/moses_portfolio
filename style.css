@@ -26,7 +26,7 @@
 }
 
 h1 {
-  font-family: fantasy, sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   display: flex;
   letter-spacing: 0.37px;
@@ -35,25 +35,22 @@ h1 {
 }
 
 p {
-  font-family: fantasy, sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   display: flex;
   letter-spacing: 0.37px;
   color: #091e42;
 }
 
-#navbarNavDropdown {
-  flex-flow: row-reverse;
-}
-
 .nav-logo {
   margin-left: 30px;
-  font-family: fantasy, sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 600;
   color: #6070ff;
   text-decoration: none;
   font-size: 25px;
+ 
 }
 
 .navbar-toggler-icon {
@@ -62,7 +59,7 @@ p {
 
 .bil {
   color: #6070ff;
-  margin-right: 20px;
+  margin-left: 2rem;
 }
 
 .let {
@@ -71,4 +68,20 @@ p {
 
 a {
   text-decoration: none;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
