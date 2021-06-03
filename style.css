@@ -8,20 +8,20 @@
   position: relative;
   align-items: center;
   background-image: url("./Header_bg.svg");
-  height: 100vh;
+  height: 70vh;
   margin-top: 5vh;
   margin-bottom: 3vh;
-  margin-left: 1vh;
+  margin-left: 3vh;
   margin-right: 1vh;
   justify-content: center;
   display:flex;
 }
 
-.bi{
+.icon{
   color: #505F79;
-  margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   width: 25px;
   height:25px;
 }
@@ -45,7 +45,33 @@ p {
   color:#091E42;   
 }
 
-.navbar{
-  position: fixed;
-   
+#navbarNavDropdown{
+ flex-flow: row-reverse;
+}
+.nav-logo{
+  margin-left: 30px;
+  font-family:fantasy, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color:#6070FF;
+  text-decoration: none;
+  font-size: 25;
+
+
+}
+.navbar-toggler-icon{
+  color:#6070FF;
+}
+
+.bil{
+  color:#6070FF;
+  margin-right: 20px;
+}
+
+.let{
+  color:#7F8CFF;
+}
+
+a{
+  text-decoration:none;
 }
