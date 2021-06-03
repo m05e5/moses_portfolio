@@ -1,0 +1,86 @@
+
+.intro {
+  background-color: #fff;
+  position: relative;
+  align-items: center;
+  background-image: url("./header-shapes\ mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: initial;
+  height: 500px;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  margin-left: 3vh;
+  margin-right: 1vh;
+  justify-content: center;
+  display: flex;
+}
+
+.icon {
+  color: #505f79;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-style: normal;
+  display: flex;
+  letter-spacing: 0.37px;
+  color: #091e42;
+  font-weight: 700;
+}
+
+p {
+  font-family: sans-serif;
+  font-style: normal;
+  display: flex;
+  letter-spacing: 0.37px;
+  color: #091e42;
+}
+
+.nav-logo {
+  margin-left: 30px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #6070ff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar-toggler-icon {
+  color: #6070ff;
+}
+
+.bil {
+  color: #6070ff;
+  margin-left: 2rem;
+}
+
+.let {
+  color: #7f8cff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
