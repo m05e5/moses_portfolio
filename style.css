@@ -4,75 +4,75 @@
     flex-direction: row;
 } */
 .intro {
-  background-color: #ffffff;
+  background-color: #fff;
   position: relative;
   align-items: center;
   background-image: url("./Header_bg.svg");
-  background-position: initial;
-  height: 70vh;
+  background-size: cover;
+  height: 90vh;  
   margin-top: 5vh;
   margin-bottom: 3vh;
   margin-left: 3vh;
   margin-right: 1vh;
   justify-content: center;
-  display:flex;
+  display: flex;
 }
 
-.icon{
-  color: #505F79;
+.icon {
+  color: #505f79;
   margin-top: 15px;
   margin-left: 10px;
   margin-right: 10px;
   width: 25px;
-  height:25px;
+  height: 25px;
 }
 
 h1 {
-  font-family:fantasy, sans-serif;
+  font-family: fantasy, sans-serif;
   font-style: normal;
   display: flex;
   /* align-items: center; */
   letter-spacing: 0.37px;
-  color:#091E42;
+  color: #091e42;
   font-weight: 700;
 }
 
 p {
-  font-family:fantasy, sans-serif;
+  font-family: fantasy, sans-serif;
   font-style: normal;
   display: flex;
   /* align-items: center; */
   letter-spacing: 0.37px;
-  color:#091E42;   
+  color: #091e42;   
 }
 
-#navbarNavDropdown{
+#navbarNavDropdown {
  flex-flow: row-reverse;
 }
-.nav-logo{
+
+.nav-logo {
   margin-left: 30px;
-  font-family:fantasy, sans-serif;
+  font-family: fantasy, sans-serif;
   font-style: normal;
   font-weight: 600;
-  color:#6070FF;
+  color: #6070ff;
   text-decoration: none;
   font-size: 25;
 
-
 }
-.navbar-toggler-icon{
-  color:#6070FF;
+.navbar-toggler-icon {
+  color: #6070ff;
 }
 
-.bil{
-  color:#6070FF;
+.bil {
+  color:#6070ff;
   margin-right: 20px;
 }
 
-.let{
-  color:#7F8CFF;
+.let {
+  color:#7f8Cff;
 }
 
-a{
+a {
   text-decoration:none;
 }
