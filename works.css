@@ -1,0 +1,171 @@
+body {
+  background: #f3f3f3;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  padding: 0px;
+  
+}
+
+.grid-card {
+  background-color: white;
+  display: grid;
+  gap: 1rem;
+  
+  border: 1px solid rgb(206, 218, 216);
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-content: center;
+  
+}
+p,h1{
+  font-family: sans-serif;
+  font-style: normal;
+  display: flex;
+  color: #172b4d;
+}
+
+@media (max-width: 70%) {
+    .grid-card {
+   flex-direction: column;
+  }
+}
+
+.card-img {
+ size: inherit;
+}
+
+.card-attribut{
+  display:flex;
+  flex-direction: row;
+}
+
+.card-text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #344563;
+  font-family: sans-serif;
+  font-style: normal;
+  display: flex;
+}
+
+.dot{
+  height:7px ;
+  width: 7px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.att1 {
+  color: #344563;
+  font-family: sans-serif;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.att2 {
+  color: #7a869a;
+  font-family: sans-serif;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.tag-section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.tag-div {
+  background: #EBEBFF;
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag {
+  font-family: sans-serif;
+  color: #6070FF;
+  font-size: 11px;
+}
+
+.button {
+  font-family: sans-serif;
+  background-color: white; 
+  color: #396DF2; 
+  border: 1px solid #396DF2;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #6070FF;
+  color: white;
+  text-decoration: none;
+}
+
+.about-me {
+  background-color: white;
+  border-top-right-radius: 50px;
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-bottom:1rem;
+  padding-top: 5rem;
+}
+
+.accordion {
+  margin-top: 2rem;
+}
+
+.d-header {
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 25px;
+  background-color:white ;
+}
+
+.language {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+
+.language-img {
+  height: 50px;
+  width: 50px;
+  margin-right: 2rem;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+

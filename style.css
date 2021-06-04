@@ -10,7 +10,7 @@
   height: 500px;
   margin-top: 5vh;
   margin-bottom: 3vh;
-  margin-left: 3vh;
+  margin-left: 1vh;
   margin-right: 1vh;
   justify-content: center;
   display: flex;
@@ -73,6 +73,10 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.col-h {
+  font-size: 25px;
 }
 
 .link {
