@@ -4,7 +4,7 @@
 
 Here is my portfolio introduction page mobile view "Welcome"
 
-![screenshot](./portfolio.png)
+![screenshot](./card.png)
 
 
 ## Built With
