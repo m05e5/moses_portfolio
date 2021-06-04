@@ -29,7 +29,7 @@ h1 {
 }
 
 @media (max-width: 70%) {
-.grid-card {
+  .grid-card {
     flex-direction: column;
   }
 }
@@ -141,7 +141,7 @@ h1 {
 .btn {
   text-decoration: none;
   font-size: 25px;
-  background-color: white ;
+  background-color: white;
 }
 
 .language {
