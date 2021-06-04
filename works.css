@@ -147,7 +147,6 @@ h1 {
 .language {
   display: flex;
   flex-direction: row;
-  align-items: center;
   font-size: 14px;
   font-weight: bold;
   background-color: #f7f7f7;
@@ -160,4 +159,8 @@ h1 {
   margin-bottom: 5px;
   margin-top: 5px;
   margin-left: 5px;
+}
+
+ul {
+  list-style-type: none;
 }
