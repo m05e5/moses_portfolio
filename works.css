@@ -2,6 +2,10 @@ body {
   background: #f3f3f3;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto;
@@ -20,7 +24,7 @@ body {
   align-content: center;
 }
 
-p,
+
 h1 {
   font-family: sans-serif;
   font-style: normal;
@@ -75,8 +79,7 @@ h1 {
 }
 
 .tag-section {
-  display: flex;
-  flex-direction: row;
+
   margin-bottom: 1rem;
 }
 
@@ -88,8 +91,7 @@ h1 {
   padding-top: 2px;
   padding-bottom: 5px;
   margin: 5px;
-  align-items: center;
-  justify-content: center;
+  float: left;
 }
 
 .tag {
@@ -108,7 +110,9 @@ h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  margin-right: 3rem;
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 8px;
@@ -161,6 +165,75 @@ h1 {
   margin-left: 5px;
 }
 
-ul {
-  list-style-type: none;
+.language-name {
+  padding-top: 20px;
+}
+
+.bt {
+  display: flex;
+}
+
+#contact-me {
+  display: flex;
+  flex-direction: column;
+  background-color:#6070ff;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-top-left-radius: 50px;
+  padding: 1rem;
+  background-image: url("./assets/contact\ form\ shapes-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: initial;
+}
+
+#contact-head {
+  margin-top: 8rem;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#contact-description{
+  margin: 1rem;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  display: flex;
+  text-align: center;
+}
+
+#form {
+  margin: 1rem;
+}
+
+#name {
+  width: 100%;
+  height: 43px;
+  margin-bottom: 1rem;
+  border-radius: 9px;
+  border: 1px solid rgb(206, 218, 216);
+}
+
+#email {
+  width: 100%;
+  height: 43px;
+  margin-bottom: 1rem;
+  border-radius: 9px;
+  border: 1px solid rgb(206, 218, 216);
+}
+
+#message {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 9px;
+  border: 1px solid rgb(206, 218, 216);
+}
+
+p {
+  font-family: sans-serif;
+  font-style: normal;
+  display: flex;
+  letter-spacing: 0.37px;
+  color: #091e42;
 }
