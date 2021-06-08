@@ -24,7 +24,6 @@ ul {
   align-content: center;
 }
 
-
 h1 {
   font-family: sans-serif;
   font-style: normal;
@@ -79,7 +78,6 @@ h1 {
 }
 
 .tag-section {
-
   margin-bottom: 1rem;
 }
 
@@ -176,7 +174,7 @@ h1 {
 #contact-me {
   display: flex;
   flex-direction: column;
-  background-color:#6070ff;
+  background-color: #6070ff;
   align-items: center;
   justify-content: center;
   color: white;
@@ -194,7 +192,7 @@ h1 {
   font-size: 40px;
 }
 
-#contact-description{
+#contact-description {
   margin: 1rem;
   color: white;
   font-size: 18px;
