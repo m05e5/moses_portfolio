@@ -3,7 +3,7 @@
   background-color: #fff;
   position: relative;
   align-items: center;
-  background-image: url("./header-shapes\ mobile.png");
+  background-image: url("./assets/header-shapes\ mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: initial;
@@ -32,14 +32,6 @@ h1 {
   letter-spacing: 0.37px;
   color: #091e42;
   font-weight: 700;
-}
-
-p {
-  font-family: sans-serif;
-  font-style: normal;
-  display: flex;
-  letter-spacing: 0.37px;
-  color: #091e42;
 }
 
 .nav-logo {
