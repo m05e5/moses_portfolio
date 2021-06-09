@@ -1,28 +1,32 @@
 
-.intro {
-  background-color: #fff;
-  position: relative;
-  align-items: center;
-  background-image: url("./assets/header-shapes\ mobile.png");
-  background-size: cover;
+.headline {
+  background-image: url("./assets/Header\ bg@2x.png");
+  display: flex;
+  flex-direction: column;
+  background-size: 110% 90%;
   background-repeat: no-repeat;
-  background-position: initial;
-  height: 500px;
-  margin-top: 5vh;
+  background-position: center;
+  background-color: #fff;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  position: relative;
   margin-bottom: 3vh;
   margin-left: 1vh;
   margin-right: 1vh;
-  justify-content: center;
   display: flex;
+  width: 60%;
 }
 
 .icon {
   color: #505f79;
-  margin-top: 15px;
-  margin-left: 10px;
+  margin-top: 5px;
   margin-right: 10px;
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
 }
 
 h1 {
@@ -50,7 +54,8 @@ h1 {
 
 .bil {
   color: #6070ff;
-  margin-left: 2rem;
+  margin-right: 2rem;
+  float: right;
 }
 
 .let {
@@ -62,9 +67,8 @@ a {
 }
 
 .navbar {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  padding-top: 1rem;
+  background-color: white;
 }
 
 .col-h {
@@ -73,10 +77,11 @@ a {
 
 .link {
   text-decoration: none;
+  padding: 0px;
 }
 
 .link-list {
   display: flex;
-  flex-direction: row;
-  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
 }
