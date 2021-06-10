@@ -1,9 +1,9 @@
 
 .headline {
-  background-image: url("./assets/Header\ bg@2x.png");
+  background-image: url("./assets/Header\ bg.svg");
   display: flex;
   flex-direction: column;
-  background-size: 110% 90%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #fff;
@@ -69,6 +69,7 @@ a {
 .navbar {
   padding-top: 1rem;
   background-color: white;
+  z-index: 1000;
 }
 
 .col-h {
