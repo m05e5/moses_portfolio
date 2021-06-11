@@ -81,6 +81,10 @@ ul {
 }
 
 @media only screen and (min-width: 992px) {
+  .nav-link {
+    display: block;
+  }
+
   body {
     max-width: 100%;
   }
