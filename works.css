@@ -1,6 +1,16 @@
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   background: #f3f3f3;
   margin: 1px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
 }
 
 ul {
@@ -15,6 +25,7 @@ ul {
 }
 
 .nav-link {
+  display: none;
   padding-right: 1rem;
   padding-left: 1rem;
   font-family: sans-serif;
@@ -29,6 +40,7 @@ ul {
 }
 
 .grid-card {
+  margin: 1rem;
   background-color: white;
   gap: 1rem;
   border: 1px solid rgb(206, 218, 216);
@@ -37,6 +49,12 @@ ul {
   justify-content: center;
   align-content: center;
 }
+
+.card-img {
+  width: 100%;
+  height: 50%;
+}
+
 
 @media only screen and (max-width: 600px) {
   .card-img {
@@ -63,7 +81,11 @@ ul {
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 992px) {
+  body {
+    max-width: 100%;
+  }
+
   .card-img {
     width: 90%;
     height: 100%;
@@ -91,7 +113,6 @@ ul {
   }
 
   .contact-me-div {
-    max-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -256,6 +277,7 @@ ul {
 }
 
 .contact-me {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   background-color: #6070ff;
@@ -291,7 +313,7 @@ ul {
 }
 
 .name-email {
-  width: 30rem;
+  width: 447px;
   height: 43px;
   margin-bottom: 1rem;
   border-radius: 9px;
@@ -301,7 +323,7 @@ ul {
 }
 
 #message {
-  width: 30rem;
+  width: 447px;
   margin-bottom: 1rem;
   border-radius: 9px;
   border: 1px solid rgb(206, 218, 216);
