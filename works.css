@@ -65,9 +65,9 @@ ul {
 
 @media only screen and (min-width: 601px) {
   .card-img {
-    width: 100%;
+    width: 90%;
     height: 100%;
-    max-width: 500px;
+    max-width: 600px;
     min-width: 250px;
   }
 
@@ -80,7 +80,7 @@ ul {
     flex-direction: row;
     height: 60vh;
     margin: 4rem;
-    max-width: 1000px;
+    max-width: 1200px;
   }
 
   .me {
@@ -104,7 +104,10 @@ ul {
   }
 
   .card-body {
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    width: 50%;
   }
 
   .language {
@@ -219,7 +222,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  border-bottom: 2px solid rgba(0, 0, 0,0.2);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 .btn {
@@ -283,21 +286,32 @@ ul {
 
 #form {
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .name-email {
-  width: 100%;
+  width: 30rem;
   height: 43px;
   margin-bottom: 1rem;
   border-radius: 9px;
   border: 1px solid rgb(206, 218, 216);
+  padding: 10px;
+  font-size: 18px;
 }
 
 #message {
-  width: 100%;
+  width: 30rem;
   margin-bottom: 1rem;
   border-radius: 9px;
   border: 1px solid rgb(206, 218, 216);
+  font-size: 18px;
+  padding: 10px;
+}
+
+.form-button {
+  align-self: center;
+  justify-self: center;
 }
 
 p {
