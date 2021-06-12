@@ -2,9 +2,9 @@
 
 # moses_portfolio
 
-Here is my portfolio introduction page mobile view "Welcome"
+Here is my responsive portfolio  
 
-![screenshot](./card.png)
+![screenshot](./assets/Readme-img.png)
 
 
 ## Built With

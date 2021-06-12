@@ -1,39 +1,81 @@
+
+h1 {
+  font-family: sans-serif;
+  font-style: normal;
+  display: flex;
+  color: #091e42;
+  font-weight: 800;
+  font-size: 34px;
+  margin: 1px;
+}
+
 body {
   background: #f3f3f3;
+  margin: 1px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
 }
 
 ul {
   list-style-type: none;
 }
 
+.nav-link-div {
+  display: flex;
+  margin: 1px;
+  padding-right: 1rem;
+  margin-right: 5rem;
+}
+
+.nav-link {
+  display: none;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-family: sans-serif;
+  color: #344563;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-items: center;
 }
 
 .grid-card {
+  margin: 1rem;
   background-color: white;
-  display: grid;
   gap: 1rem;
   border: 1px solid rgb(206, 218, 216);
   border-radius: 10px;
-  margin: 1rem;
   padding: 1rem;
   justify-content: center;
   align-content: center;
 }
 
-h1 {
-  font-family: sans-serif;
-  font-style: normal;
-  display: flex;
-  color: #172b4d;
-}
+@media only screen and (max-width: 600px) {
+  .card-img {
+    width: 100%;
+    height: 100%;
+  }
 
-@media (max-width: 70%) {
   .grid-card {
+    display: flex;
     flex-direction: column;
+    margin: 1rem;
+  }
+
+  .contact-me {
+    padding: 2rem;
+  }
+
+  .about-me {
+    flex-direction: column;
+  }
+
+  .collaps {
+    display: none;
   }
 }
 
@@ -79,6 +121,9 @@ h1 {
 
 .tag-section {
   margin-bottom: 1rem;
+  display: flex;
+  padding-left: 1px;
+  margin-left: 1px;
 }
 
 .tag-div {
@@ -89,7 +134,6 @@ h1 {
   padding-top: 2px;
   padding-bottom: 5px;
   margin: 5px;
-  float: left;
 }
 
 .tag {
@@ -108,9 +152,6 @@ h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-top: 1rem;
-  margin-left: 4rem;
-  margin-right: 3rem;
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 8px;
@@ -129,15 +170,19 @@ h1 {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-top: 5rem;
-}
-
-.accordion {
-  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
 
 .d-header {
   background-color: white;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 .btn {
@@ -148,7 +193,6 @@ h1 {
 
 .language {
   display: flex;
-  flex-direction: row;
   font-size: 14px;
   font-weight: bold;
   background-color: #f7f7f7;
@@ -179,11 +223,10 @@ h1 {
   justify-content: center;
   color: white;
   border-top-left-radius: 50px;
-  padding: 1rem;
-  background-image: url("./assets/contact\ form\ shapes-mobile.svg");
-  background-size: cover;
+  background-image: url("./assets/contact\ form\ background\ shapes.svg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: initial;
+  background-position: center;
 }
 
 .contact-head {
@@ -203,6 +246,8 @@ h1 {
 
 #form {
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .name-email {
@@ -220,10 +265,114 @@ h1 {
   border: 1px solid rgb(206, 218, 216);
 }
 
+.form-button {
+  align-self: center;
+  justify-self: center;
+}
+
 p {
   font-family: sans-serif;
   font-style: normal;
   display: flex;
   letter-spacing: 0.37px;
   color: #091e42;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  max-width: 684px;
+}
+
+.skill-title {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.skill-arrow {
+  float: right;
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-link {
+    display: block;
+  }
+
+  body {
+    max-width: 100%;
+  }
+
+  .card-img {
+    width: 55%;
+    height: 100%;
+    max-width: 600px;
+    min-width: 250px;
+  }
+
+  .c-2 {
+    order: 1;
+  }
+
+  .grid-card {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    margin: 4rem;
+    max-width: 1200px;
+  }
+
+  .me {
+    width: 40%;
+    margin-right: 1rem;
+    margin-left: 4rem;
+    max-width: 447px;
+  }
+
+  .contact-me-div {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boo-body {
+    display: flex;
+    gap: 20px;
+  }
+
+  .card-body {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    width: 50%;
+  }
+
+  .language {
+    flex-direction: column;
+  }
+
+  .exp {
+    display: none;
+  }
+
+  .name-email {
+    width: 400px;
+    height: 43px;
+    margin-bottom: 1rem;
+    border-radius: 9px;
+    border: 1px solid rgb(206, 218, 216);
+  }
+
+  #message {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 9px;
+    border: 1px solid rgb(206, 218, 216);
+  }
+
+  h1 {
+    font-size: 48px;
+  }
 }
