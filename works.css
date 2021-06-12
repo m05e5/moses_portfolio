@@ -242,6 +242,11 @@ ul {
   font-style: normal;
   display: flex;
   text-align: center;
+  transition: margin 1s;
+}
+
+.contact-description:hover {
+  margin-left: 2rem;
 }
 
 #form {
@@ -308,6 +313,11 @@ p {
     height: 100%;
     max-width: 600px;
     min-width: 250px;
+    transition: width 2s;
+  }
+
+  .card-img:hover {
+    width: 70%;
   }
 
   .c-2 {
