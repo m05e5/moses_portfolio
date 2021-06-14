@@ -60,6 +60,10 @@ ul {
     height: 100%;
   }
 
+  .intro-head {
+    margin-top: 1rem;
+  }
+
   .grid-card {
     display: flex;
     flex-direction: column;
