@@ -2,9 +2,11 @@
 
 # moses_portfolio
 
-Here is my responsive portfolio  
+Here is my responsive portfolio. 
 
-![screenshot](./assets/Readme-img.png)
+![screenshot](./assets/Capture.PNG)
+
+Here is a little brief about myself and some project i've done so far. There are well responsive designed projects
 
 
 ## Built With
@@ -14,7 +16,7 @@ Here is my responsive portfolio
 
 ## Live Demo
 
-[Live Demo Link](https://m05e5.github.io/moses_portfolio)
+[My Live Demo Link](https://m05e5.github.io/moses_portfolio)
 
 
 ### Prerequisites
@@ -31,6 +33,11 @@ Here is my responsive portfolio
 - GitHub: [@m05e5](https://github.com/m05e5)
 
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
