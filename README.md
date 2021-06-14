@@ -12,6 +12,11 @@ Here is my responsive portfolio
 - Html and CSS
 - VS studio as IDE
 
+## Live Demo
+
+[Live Demo Link](https://m05e5.github.io/moses_portfolio)
+
+
 ### Prerequisites
 
 - Clone git repo
