@@ -7,18 +7,18 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: #fff;
-  height: 80vh;
   justify-content: center;
   align-items: center;
+  padding: 3rem;
 }
 
 .intro {
-  position: relative;
   margin-bottom: 3vh;
   margin-left: 1vh;
   margin-right: 1vh;
   display: flex;
   width: 60%;
+  padding: 3rem;
 }
 
 .icon {
@@ -35,7 +35,7 @@ h1 {
   display: flex;
   color: #091e42;
   font-weight: 800;
-  font-size: 48px;
+  font-size: 43px;
   margin: 1px;
 }
 
@@ -65,7 +65,7 @@ h1 {
 }
 
 .let {
-  color: #7f8cff;
+  color: #1a31ff;
 }
 
 a {
