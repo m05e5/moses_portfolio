@@ -279,7 +279,7 @@ ul {
 }
 
 #message:focus {
-  outline: 6px solid rgba(0, 0, 0, 0.2)
+  outline: 6px solid rgba(0, 0, 0, 0.2);
 }
 
 .form-button {
