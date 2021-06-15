@@ -266,10 +266,7 @@ ul {
   border-radius: 9px;
   border: 1px solid rgb(206, 218, 216);
   padding-left: 10px;
-}
-
-.name-email:focus {
-  outline: 6px solid rgba(0, 0, 0, 0.2)
+  transition: padding 1s;
 }
 
 #message {
@@ -390,11 +387,19 @@ p {
     border: 1px solid rgb(206, 218, 216);
   }
 
+  .name-email:hover {
+    padding-left: 30px;
+  }
+
   #message {
-    width: 100%;
+    width: 400px;
     margin-bottom: 1rem;
     border-radius: 9px;
     border: 1px solid rgb(206, 218, 216);
+  }
+
+  #message:hover {
+    padding-left: 30px;
   }
 
   h1 {
