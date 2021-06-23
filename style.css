@@ -120,6 +120,8 @@ h1 {
 
 .let {
   color: #1a31ff;
+  font-family: sans-serif;
+  letter-spacing: 1.5px;
 }
 
 a {
@@ -395,7 +397,7 @@ ul {
 .contact-me {
   display: flex;
   flex-direction: column;
-  background-color: #132bfd;
+  background-color: #6070FF;
   align-items: center;
   justify-content: center;
   color: white;
@@ -478,6 +480,8 @@ p {
 .skill-title {
   font-family: sans-serif;
   font-size: 20px;
+  letter-spacing: 0.1px;
+  color: #344563;
 }
 
 .skill-arrow {
