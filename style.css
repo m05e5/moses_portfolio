@@ -85,7 +85,7 @@ h1 {
   border-radius: 3px;
   transition: all 0.5s;
   margin-top: 5px;
-  z-index:100;
+  z-index: 100;
 }
 
 /* hamburger menu animation */
@@ -147,16 +147,6 @@ a {
   display: flex;
   margin-left: 1px;
   padding-left: 1px;
-}
-
-h1 {
-  font-family: sans-serif;
-  font-style: normal;
-  display: flex;
-  color: #091e42;
-  font-weight: 800;
-  font-size: 34px;
-  margin: 1px;
 }
 
 body {
@@ -498,9 +488,10 @@ p {
   float: right;
 }
 
-/* styling of my modal ------------------------------------------*/
- /* The Modal (background) */
- .modal {
+/* styling of my modal ------------------------------------------ */
+
+/* The Modal (background) */
+.modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -509,8 +500,8 @@ p {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 .modal-pics {
@@ -526,7 +517,7 @@ p {
 
 .modal-links {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -557,13 +548,13 @@ p {
 }
 
 @media only screen and (min-width: 992px) {
-  .menu-toggle{
+  .menu-toggle {
     display: none;
   }
 
   .nav-link {
     display: block;
-     padding-right: 1rem;
+    padding-right: 1rem;
     padding-left: 1rem;
     font-family: sans-serif;
     color: #344563;
@@ -659,7 +650,7 @@ p {
     font-size: 48px;
   }
 
-  /* styling of my modal ------------------------------------------*/
+  /* styling of my modal ------------------------------------------ */
   .modal-pics {
     width: 80%;
     height: 500px;
@@ -681,14 +672,14 @@ p {
     display: flex;
   }
 
-  .modal-details p{
+  .modal-details p {
     width: 61%;
     padding: 1rem;
   }
 
   .modal-links {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -716,5 +707,5 @@ p {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  } 
+  }
 }
