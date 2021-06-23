@@ -22,36 +22,36 @@ const card1 = {
   title: 'Tonic',
   description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   img: './assets/Snapshoot1.png',
-  tag1: 'html', 
-  tag2: 'Ruby on rails', 
-  tag3: 'css', 
+  tag1: 'html',
+  tag2: 'Ruby on rails',
+  tag3: 'css',
   tag4: 'javaScript',
 };
 const card2 = {
   title: 'Multi-Post Sorties',
   description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   img: './assets/Snapshoot2.png',
-  tag1: 'html', 
-  tag2: 'Ruby on rails', 
-  tag3: 'css', 
+  tag1: 'html',
+  tag2: 'Ruby on rails',
+  tag3: 'css',
   tag4: 'javaScript',
 };
 const card3 = {
   title: 'Facebook 360',
   description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   img: './assets/Snapshoot3.png',
-  tag1: 'html', 
-  tag2: 'Ruby on rails', 
-  tag3: 'css', 
+  tag1: 'html',
+  tag2: 'Ruby on rails',
+  tag3: 'css',
   tag4: 'javaScript',
 };
 const card4 = {
   title: 'Uber Navigator',
   description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   img: './assets/Snapshoot4.png',
-  tag1: 'html', 
-  tag2: 'Ruby on rails', 
-  tag3: 'css', 
+  tag1: 'html',
+  tag2: 'Ruby on rails',
+  tag3: 'css',
   tag4: 'javaScript',
 };
 
@@ -104,7 +104,7 @@ let btn4 = document.getElementById('myBtn4');
 let span = document.getElementsByClassName('close')[0];
 
 // When the user clicks on the button, open the modal
-btn1.onclick = function() {
+btn1.onclick = function () {
   modal1.style.display = 'block';
   modal1Title.textContent = card1.title;
   modal1Desc.textContent = card1.description;
@@ -115,7 +115,7 @@ btn1.onclick = function() {
   modal1tag4.textContent = card1.tag4;
 };
 
-btn2.onclick = function() {
+btn2.onclick = function () {
   modal2.style.display = 'block';
   modal2Title.textContent = card2.title;
   modal2Desc.textContent = card2.description;
@@ -126,7 +126,7 @@ btn2.onclick = function() {
   modal2tag4.textContent = card2.tag4;
 };
 
-btn3.onclick = function() {
+btn3.onclick = function () {
   modal3.style.display = 'block';
   modal3Title.textContent = card3.title;
   modal3Desc.textContent = card3.description;
@@ -137,7 +137,7 @@ btn3.onclick = function() {
   modal3tag4.textContent = card3.tag4;
 };
 
-btn4.onclick = function() {
+btn4.onclick = function () {
   modal4.style.display = 'block';
   modal4Title.textContent = card4.title;
   modal4Desc.textContent = card4.description;
@@ -149,7 +149,7 @@ btn4.onclick = function() {
 };
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span.onclick = function () {
   modal1.style.display = 'none';
   modal2.style.display = 'none';
   modal3.style.display = 'none';
@@ -157,7 +157,7 @@ span.onclick = function() {
 };
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target === modal1) {
     modal1.style.display = 'none';
   }
