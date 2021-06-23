@@ -4,40 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moses's Portfolio</title>
+    <title>Document</title>
    
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="works.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J2YBHK978L"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-J2YBHK978L');
-    </script>
     
 </head>
 <body>
     <header class="header">
      <nav class="navbar ">
         <a class="nav-logo" href="#">My Logo</a>
-        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bil exp bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h2a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h2a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h2a.5.5 0 0 1-.5-.5z"/>
-        </svg>
-        <ul class="collaps bil nav-link-div">
+        <ul class="nav-link-div">
             <li>
-                <a href="#" class="nav-link">portfolio</a>
+                <a href="#card-section" class="nav-link">portfolio</a>
             </li>
             <li>
-                <a href="#" class="nav-link">about</a>
+                <a href="#about-me" class="nav-link">about</a>
             </li>
             <li>
-                <a href="#" class="nav-link">contact</a>
+                <a href="#contact-me" class="nav-link">contact</a>
             </li>
-
         </ul>
+        <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
       </nav>
     </header>
     
@@ -46,12 +38,9 @@
         <div class="intro">
             
             <div class="col-12 ">
-                <div class="intro-head">
-                    <h1 class="aligne-self-center">I'm Moses </h1>
-                    <h1 class="aligne-self-center"> glade to see you</h1>
-                </div>
-                
-                <p class="intro-text">I’m a software developer! I can help you build a product ,
+                <h1 class="col-h col-11 col-lg-5 aligne-self-center">I'm Moses </h1>
+                <h1 class="col-h col-11 col-lg-5 aligne-self-center"> glade to see you</h1>
+                <p class="col col-12">I’m a software developer! I can help you build a product ,
                     feature or website Look through some of my work and experience! 
                     If you like what you see and have a project you need coded, 
                     don’t hestiate to contact me. 
@@ -60,27 +49,31 @@
                 <ul class="link-list">
                     <li class="link">
                         <a href="#" >
-                            <img src="./assets/twitterr.png" class="icon" alt="twitter logo" >
+                            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="icon bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                            </svg>
                         </a>
                     </li>
                     <li class="link">
                         <a href="https://www.linkedin.com/in/caleb-moses-0a1b531b9/">
-                            <img src="./assets/Linkedin_icon.png" class="icon" alt="linkedin logo" >
+                            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="icon bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                            </svg>
                         </a>
                     </li>
                     <li class="link">
                     <a href="#">
-                        <img src="./assets/medium.png" class="icon" alt="medium logo" >
+                        <img src="./assets/medium.png" class="icon" alt="zoo" >
                     </a>
                     </li>
                     <li class="link">
                         <a href="#">
-                            <img src="./assets/github.png" class="icon" alt="github logo" >
+                            <img src="./assets/github.png" class="icon" alt="zooo" >
                         </a>
                     </li>
                     <li class="link">
                         <a href="#">
-                            <img src="./assets/angellist.png" class="icon" alt="angellist logo">
+                            <img src="./assets/angellist.png" class="icon" alt="zoooo">
                         </a>
                     </li>
                 </ul>
@@ -89,17 +82,17 @@
         </div>
     </section>
         
-    <section class="grid-container">
+    <section class="grid-container" id="card-section">
         <div class="grid-card">
             
-            <img class="card-img" src="./assets/Snapshoot1.png" alt="Tonic screenshot">
+            <img class="card-img" src="./assets/Snapshoot1.png" alt="Card image">
             <div class="card-body">
-                <h2 class="card-title">Tonic</h2>
+                <h1 class="card-title">Multi-Post Sorties</h1>
                     <div class="card-attribut">
                         <span class="att1">FACEBOOK</span>
-                        <img src="./assets/Counter.png" class="dot" alt="">
+                        <img src="./assets/Counter.png" class="dot" alt="dot">
                         <span class="att2">Back End Dev</span>
-                        <img src="./assets/Counter.png" class="dot" alt="">
+                        <img src="./assets/Counter.png" class="dot" alt="dot">
                         <span class="att2">2015</span>
                     </div>
                     <p class="card-text">A daily selection of privately 
@@ -125,14 +118,14 @@
         </div>
         <div class="grid-card">
             
-            <img class="card-img c-2" src="./assets/Snapshoot2.png" alt="Multi-Post Sorties screenshot">
+            <img class="card-img c-2" src="./assets/Snapshoot2.png" alt="Card image">
             <div class="card-body">
-                <h2 class="card-title">Multi-Post Sorties</h2>
+                <h1 class="card-title">Multi-Post Sorties</h1>
                 <div class="card-attribut">
                     <span class="att1">CANOPY</span>
-                    <img src="./assets/Counter.png" class="dot" alt="">
+                    <img src="./assets/Counter.png" class="dot" alt="dot">
                     <span class="att2">Back End Dev</span>
-                    <img src="./assets/Counter.png" class="dot" alt="">
+                    <img src="./assets/Counter.png" class="dot" alt="dot">
                     <span class="att2">2015</span>
                 </div>
                 <span class="card-text">Experimental content creation feature that allows 
@@ -159,14 +152,14 @@
         </div>
         <div class="grid-card">
             
-            <img class="card-img" src="./assets/Snapshoot3.png" alt="Facebook 360 screenshot">
+            <img class="card-img" src="./assets/Snapshoot3.png" alt="Card image">
             <div class="card-body">
-                <h2 class="card-title">Facebook 360</h2>
+                <h1 class="card-title">Multi-Post Sorties</h1>
                     <div class="card-attribut">
                         <span class="att1">CANOPY</span>
-                        <img src="./assets/Counter.png" class="dot" alt="">
+                        <img src="./assets/Counter.png" class="dot" alt="dot">
                         <span class="att2">Back End Dev</span>
-                        <img src="./assets/Counter.png" class="dot" alt="">
+                        <img src="./assets/Counter.png" class="dot" alt="dot">
                         <span class="att2">2015</span>
                     </div>
                     <span class="card-text">Exploring the future of media in 
@@ -193,34 +186,33 @@
         </div>
         <div class="grid-card">
             
-            <img class="card-img c-2" src="./assets/Snapshoot4.png" alt="Uber Navigation screenshot">
+            <img class="card-img c-2" src="./assets/Snapshoot4.png" alt="Card image">
             <div class="card-body">
-                <h2 class="card-title">Uber Navigation</h2>
+                <h1 class="card-title">Multi-Post Sorties</h1>
                 <div class="card-attribut">
                     <span class="att1">CANOPY</span>
-                    <img src="./assets/Counter.png" class="dot" alt="">
+                    <img src="./assets/Counter.png" class="dot" alt="dot">
                     <span class="att2">Back End Dev</span>
-                    <img src="./assets/Counter.png" class="dot" alt="">
+                    <img src="./assets/Counter.png" class="dot" alt="dot">
                     <span class="att2">2015</span>
                 </div>
-                <span class="card-text">Experimental content creation feature that allows 
-                    users to add to an existing story over the course of a day 
-                    without spamming their friends.</span>
-
-                <ul class="tag-section">
-                    <li class="tag-div">
-                        <span class="tag">html</span>
-                    </li>
-                    <li class="tag-div collaps">
-                        <span class="tag">Ruby on rails</span>
-                    </li>
-                    <li class="tag-div">
-                        <span class="tag">css</span>
-                    </li>
-                    <li class="tag-div">
-                        <span class="tag">javaScript</span>
-                    </li>
-                </ul>
+                <span class="card-text">Hello I’m a software developer! I can help you build a product , 
+                    feature or website Look through some of my work and experience! 
+                    If you like what you see and have a project you need coded, don’t hestiate to contact me.</span>
+                    <ul class="tag-section">
+                        <li class="tag-div">
+                            <span class="tag">html</span>
+                        </li>
+                        <li class="tag-div collaps">
+                            <span class="tag">Ruby on rails</span>
+                        </li>
+                        <li class="tag-div">
+                            <span class="tag">css</span>
+                        </li>
+                        <li class="tag-div">
+                            <span class="tag">javaScript</span>
+                        </li>
+                    </ul>
                 <a href="#" class="button">See Project</a>
             
             </div>
@@ -228,10 +220,10 @@
        
     </section>
 
-    <section class="about-me">
+    <section class="about-me" id="about-me">
     <div class="me">
-        <h2 class="card-title">About</h2>
-        <h2 class="card-title">Myself</h2>
+        <h1 class="card-title">About</h1>
+        <h1 class="card-title">Myself</h1>
 
         <p class="card-text">
             Hello I’m a software developer! 
@@ -241,31 +233,35 @@
             If you like what you see and have a 
             project you need coded, don’t hestiate to contact me.
         </p>
-        <h2 class="let">LET'S CONNECT</h2> <br>
+        <h3 class="let">LET'S CONNECT</h3> <br>
         <ul class="link-list">
             <li class="link">
                 <a href="#" >
-                    <img src="./assets/twitterr.png" class="icon" alt="twitter logo" >
+                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="icon bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>
                 </a>
             </li>
             <li class="link">
                 <a href="https://www.linkedin.com/in/caleb-moses-0a1b531b9/">
-                    <img src="./assets/Linkedin_icon.png" class="icon" alt="linkedin logo" >
+                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="icon bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
                 </a>
             </li>
             <li class="link">
             <a href="#">
-                <img src="./assets/medium.png" class="icon" alt="medium logo" >
+                <img src="./assets/medium.png" class="icon" alt="zoo" >
             </a>
             </li>
             <li class="link">
                 <a href="#">
-                    <img src="./assets/github.png" class="icon" alt="github logo" >
+                    <img src="./assets/github.png" class="icon" alt="zooo" >
                 </a>
             </li>
             <li class="link">
                 <a href="#">
-                    <img src="./assets/angellist.png" class="icon" alt="angellist logo">
+                    <img src="./assets/angellist.png" class="icon" alt="zoooo">
                 </a>
             </li>
         </ul>
@@ -276,9 +272,9 @@
     <div class="skills">
         
         <div class="d-header" id="headingOne">
-            <h3 class="skill-title">
+            <h5 class="skill-title">
                     Languages 
-            </h3>
+            </h5>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="skill-arrow bi-chevron-compact-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
               </svg>
@@ -287,15 +283,15 @@
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <ul class="boo-body">
                 <li class="language">
-                    <img class="language-img" src="./assets/js.png" alt="JavaScript">
+                    <img class="language-img" src="./assets/js.png" alt="js">
                     <span class="language-name">JavaScript</span>
                 </li>
                 <li class="language">
-                    <img class="language-img" src="./assets/html.png" alt="HTML">
+                    <img class="language-img" src="./assets/html.png" alt="js">
                     <span class="language-name">HTML</span>
                 </li>
                 <li class="language">
-                    <img class="language-img" src="./assets/css.png" alt="CSS">
+                    <img class="language-img" src="./assets/css.png" alt="js">
                     <span class="language-name">CSS</span>
                 </li>
             </ul>
@@ -303,9 +299,9 @@
         
         
         <div class="d-header" id="headingTwo">
-            <h3 class="skill-title">
+            <h5 class="skill-title">
                 Frameworks
-            </h3>
+            </h5>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="skill-arrow bi-chevron-compact-down" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
               </svg>
@@ -318,9 +314,9 @@
     
     
         <div class="d-header" id="headingThree">
-            <h3 class="skill-title">
+            <h5 class="skill-title">
                  Skills
-            </h3>
+            </h5>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="skill-arrow bi-chevron-compact-down" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
               </svg>
@@ -333,23 +329,25 @@
         
     </div>
     </section>
-    <footer class="contact-me">
+    <footer class="contact-me" id="contact-me">
         <div class="contact-me-div">
-            <h2 class=contact-head>Contact me</h2>
+            <h3 class=contact-head>Contact me</h3>
             <p class="contact-description">
                 If you have an application you are interested 
                 in developing, a feature that you need built 
                 or a project that needs coding. I’d love to 
-                help with it.
+                help with it 
             </p>
-            <form id="form" action="https://formspree.io/f/mjvjrozl" method="POST">
+            <form id="form" action="https://formspree.io/f/1" method="POST">
                 <input type="text" name="name" id="name" class="name-email" placeholder="Enter your name" maxlength="30" required>
                 <input type="email" name="email" id="email" class="name-email" placeholder="Enter your email" required>
                 <textarea name="message" id="message" rows="6" maxlength="500" placeholder="write your message here" required></textarea>
-                <button type="submit" class="button form-button" >Get it Touch</button>
+                <button type="submit" class="button" >Get it Touch</button>
             </form>
         </div>
     </footer>
-
-</body>      
+    <script src="script.js">
+        
+    </script>  
+</body>    
 </html>
