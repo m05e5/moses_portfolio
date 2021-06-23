@@ -15,9 +15,7 @@ menulink.forEach((link) => link.addEventListener('click', () => {
   nav.classList.remove('new-nav-display');
 }));
 
-//js modal object------------------------------------
-const cardTitle = document.querySelector('#card1 .card-body h1').textContent;
-
+// js modal object------------------------------------
 const card1 = {
   title: 'Tonic',
   description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -89,19 +87,19 @@ const modal4tag4 = document.querySelector('#myModal4 .tag4');
 
 // js of my modal------------------------------------
 // Get the modal
-let modal1 = document.getElementById('myModal1');
-let modal2 = document.getElementById('myModal2');
-let modal3 = document.getElementById('myModal3');
-let modal4 = document.getElementById('myModal4');
+const modal1 = document.getElementById('myModal1');
+const modal2 = document.getElementById('myModal2');
+const modal3 = document.getElementById('myModal3');
+const modal4 = document.getElementById('myModal4');
 
 // Get the button that opens the modal
-let btn1 = document.getElementById('myBtn1');
-let btn2 = document.getElementById('myBtn2');
-let btn3 = document.getElementById('myBtn3');
-let btn4 = document.getElementById('myBtn4');
+const btn1 = document.getElementById('myBtn1');
+const btn2 = document.getElementById('myBtn2');
+const btn3 = document.getElementById('myBtn3');
+const btn4 = document.getElementById('myBtn4');
 
 // Get the <span> element that closes the modal
-let span = document.getElementsByClassName('close')[0];
+const span = document.getElementsByClassName('close')[0];
 
 // When the user clicks on the button, open the modal
 btn1.onclick = function () {
