@@ -85,7 +85,7 @@ h1 {
   border-radius: 3px;
   transition: all 0.5s;
   margin-top: 5px;
-  z-index:100;
+  z-index: 100;
 }
 
 /* hamburger menu animation */
@@ -147,16 +147,6 @@ a {
   display: flex;
   margin-left: 1px;
   padding-left: 1px;
-}
-
-h1 {
-  font-family: sans-serif;
-  font-style: normal;
-  display: flex;
-  color: #091e42;
-  font-weight: 800;
-  font-size: 34px;
-  margin: 1px;
 }
 
 body {
@@ -495,13 +485,13 @@ p {
 }
 
 @media only screen and (min-width: 992px) {
-  .menu-toggle{
+  .menu-toggle {
     display: none;
   }
 
   .nav-link {
     display: block;
-     padding-right: 1rem;
+    padding-right: 1rem;
     padding-left: 1rem;
     font-family: sans-serif;
     color: #344563;
