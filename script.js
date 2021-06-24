@@ -15,6 +15,44 @@ menulink.forEach((link) => link.addEventListener('click', () => {
   nav.classList.remove('new-nav-display');
 }));
 
+// js modal object------------------------------------
+const card1 = {
+  title: 'Tonic',
+  description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  img: './assets/Snapshoot1.png',
+  tag1: 'html',
+  tag2: 'Ruby on rails',
+  tag3: 'css',
+  tag4: 'javaScript',
+};
+const card2 = {
+  title: 'Multi-Post Sorties',
+  description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  img: './assets/Snapshoot2.png',
+  tag1: 'html',
+  tag2: 'Ruby on rails',
+  tag3: 'css',
+  tag4: 'javaScript',
+};
+const card3 = {
+  title: 'Facebook 360',
+  description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  img: './assets/Snapshoot3.png',
+  tag1: 'html',
+  tag2: 'Ruby on rails',
+  tag3: 'css',
+  tag4: 'javaScript',
+};
+const card4 = {
+  title: 'Uber Navigator',
+  description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  img: './assets/Snapshoot4.png',
+  tag1: 'html',
+  tag2: 'Ruby on rails',
+  tag3: 'css',
+  tag4: 'javaScript',
+};
+
 const card1Title = document.querySelector('#card1 h2');
 const card1Img = document.querySelector('#card1 #c-img1');
 const card1Desc = document.querySelector('#card1 .description');
@@ -80,44 +118,6 @@ window.addEventListener('load', () => {
   card4tag3.textContent = card4.tag3;
   card4tag4.textContent = card4.tag4;
 });
-
-// js modal object------------------------------------
-const card1 = {
-  title: 'Tonic',
-  description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  img: './assets/Snapshoot1.png',
-  tag1: 'html',
-  tag2: 'Ruby on rails',
-  tag3: 'css',
-  tag4: 'javaScript',
-};
-const card2 = {
-  title: 'Multi-Post Sorties',
-  description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  img: './assets/Snapshoot2.png',
-  tag1: 'html',
-  tag2: 'Ruby on rails',
-  tag3: 'css',
-  tag4: 'javaScript',
-};
-const card3 = {
-  title: 'Facebook 360',
-  description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  img: './assets/Snapshoot3.png',
-  tag1: 'html',
-  tag2: 'Ruby on rails',
-  tag3: 'css',
-  tag4: 'javaScript',
-};
-const card4 = {
-  title: 'Uber Navigator',
-  description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  img: './assets/Snapshoot4.png',
-  tag1: 'html',
-  tag2: 'Ruby on rails',
-  tag3: 'css',
-  tag4: 'javaScript',
-};
 
 // js of my modal content------------------------------------
 const modal1Title = document.querySelector('#myModal1 h2');
