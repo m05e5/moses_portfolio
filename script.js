@@ -16,7 +16,7 @@ menulink.forEach((link) => link.addEventListener('click', () => {
 }));
 
 // js modal object------------------------------------
-const cards =[{
+const cards = [{
   key: 1,
   id: 'c-img1',
   title: 'Tonic',
@@ -152,7 +152,7 @@ const lunchCards = () => {
     seeMoreBtn.classList.add('button');
     seeMoreBtn.innerText = 'See Project';
     seeMoreBtn.dataset.key = item.key;
-    seeMoreBtn.id = 'myBtn' + `${item.key}`;
+    seeMoreBtn.id = `myBtn` + `${item.key}`;
     workbody.appendChild(seeMoreBtn);
     list.appendChild(workbody);
     CardWrap.appendChild(list);
