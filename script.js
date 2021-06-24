@@ -223,8 +223,8 @@ btn3.onclick = function () {
   modal3tag2.textContent = card3.tag2;
   modal3tag3.textContent = card3.tag3;
   modal3tag4.textContent = card3.tag4;
-  modal4live.href = card4.liveDemoLink;
-  modal4github.href = card4.githubLink;
+  modal3live.href = card4.liveDemoLink;
+  modal3github.href = card4.githubLink;
 };
 
 btn4.onclick = function () {
