@@ -336,6 +336,8 @@ ul {
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 8px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .button:hover {
@@ -515,11 +517,15 @@ p {
   background-color: rgb(231, 231, 231);
 }
 
+.modal-icon {
+  color: #6070ff;
+}
+
 .modal-links {
   display: flex;
-  justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  gap: 10px;
 }
 
 /* Modal Content/Box */

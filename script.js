@@ -14,6 +14,39 @@ menulink.forEach((link) => link.addEventListener('click', () => {
   menuToggle.checked = false;
   nav.classList.remove('new-nav-display');
 }));
+window.addEventListener('load', () => {
+  card1Title.textContent = card1.title;
+  card1Desc.textContent = card1.description;
+  card1Img.src = card1.img;
+  card1tag1.textContent = card1.tag1;
+  card1tag2.textContent = card1.tag2;
+  card1tag3.textContent = card1.tag3;
+  card1tag4.textContent = card1.tag4;
+
+  card2Title.textContent = card2.title;
+  card2Desc.textContent = card2.description;
+  card2Img.src = card2.img;
+  card2tag1.textContent = card2.tag1;
+  card2tag2.textContent = card2.tag2;
+  card2tag3.textContent = card2.tag3;
+  card2tag4.textContent = card2.tag4;
+
+  card3Title.textContent = card3.title;
+  card3Desc.textContent = card3.description;
+  card3Img.src = card3.img;
+  card3tag1.textContent = card3.tag1;
+  card3tag2.textContent = card3.tag2;
+  card3tag3.textContent = card3.tag3;
+  card3tag4.textContent = card3.tag4;
+
+  card4Title.textContent = card4.title;
+  card4Desc.textContent = card4.description;
+  card4Img.src = card4.img;
+  card4tag1.textContent = card4.tag1;
+  card4tag2.textContent = card4.tag2;
+  card4tag3.textContent = card4.tag3;
+  card4tag4.textContent = card4.tag4;
+});
 
 // js modal object------------------------------------
 const card1 = {
@@ -53,6 +86,7 @@ const card4 = {
   tag4: 'javaScript',
 };
 
+// js of my modal content------------------------------------
 const modal1Title = document.querySelector('#myModal1 h2');
 const modal1Img = document.querySelector('#myModal1 #pic1');
 const modal1Desc = document.querySelector('#myModal1 .description');
@@ -85,6 +119,7 @@ const modal4tag2 = document.querySelector('#myModal4 .tag2');
 const modal4tag3 = document.querySelector('#myModal4 .tag3');
 const modal4tag4 = document.querySelector('#myModal4 .tag4');
 
+
 // js of my modal------------------------------------
 // Get the modal
 const modal1 = document.getElementById('myModal1');
@@ -99,7 +134,10 @@ const btn3 = document.getElementById('myBtn3');
 const btn4 = document.getElementById('myBtn4');
 
 // Get the <span> element that closes the modal
-const span = document.getElementsByClassName('close')[0];
+const span1 = document.getElementsByClassName('close')[0];
+const span2 = document.getElementsByClassName('close')[1];
+const span3 = document.getElementsByClassName('close')[2];
+const span4 = document.getElementsByClassName('close')[3];
 
 // When the user clicks on the button, open the modal
 btn1.onclick = function () {
@@ -147,10 +185,16 @@ btn4.onclick = function () {
 };
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function () {
+span1.onclick = function () {
   modal1.style.display = 'none';
+};
+span2.onclick = function () {
   modal2.style.display = 'none';
+};
+span3.onclick = function () {
   modal3.style.display = 'none';
+};
+span4.onclick = function () {
   modal4.style.display = 'none';
 };
 
