@@ -14,6 +14,39 @@ menulink.forEach((link) => link.addEventListener('click', () => {
   menuToggle.checked = false;
   nav.classList.remove('new-nav-display');
 }));
+
+const card1Title = document.querySelector('#card1 h2');
+const card1Img = document.querySelector('#card1 #c-img1');
+const card1Desc = document.querySelector('#card1 .description');
+const card1tag1 = document.querySelector('#card1 .tag1');
+const card1tag2 = document.querySelector('#card1 .tag2');
+const card1tag3 = document.querySelector('#card1 .tag3');
+const card1tag4 = document.querySelector('#card1 .tag4');
+
+const card2Title = document.querySelector('#card2 h2');
+const card2Img = document.querySelector('#card2 #c-img2');
+const card2Desc = document.querySelector('#card2 .description');
+const card2tag1 = document.querySelector('#card2 .tag1');
+const card2tag2 = document.querySelector('#card2 .tag2');
+const card2tag3 = document.querySelector('#card2 .tag3');
+const card2tag4 = document.querySelector('#card2 .tag4');
+
+const card3Title = document.querySelector('#card3 h2');
+const card3Img = document.querySelector('#card3 #c-img3');
+const card3Desc = document.querySelector('#card3 .description');
+const card3tag1 = document.querySelector('#card3 .tag1');
+const card3tag2 = document.querySelector('#card3 .tag2');
+const card3tag3 = document.querySelector('#card3 .tag3');
+const card3tag4 = document.querySelector('#card3 .tag4');
+
+const card4Title = document.querySelector('#card4 h2');
+const card4Img = document.querySelector('#card4 #c-img4');
+const card4Desc = document.querySelector('#card4 .description');
+const card4tag1 = document.querySelector('#card4 .tag1');
+const card4tag2 = document.querySelector('#card4 .tag2');
+const card4tag3 = document.querySelector('#card4 .tag3');
+const card4tag4 = document.querySelector('#card4 .tag4');
+
 window.addEventListener('load', () => {
   card1Title.textContent = card1.title;
   card1Desc.textContent = card1.description;
@@ -119,37 +152,6 @@ const modal4tag2 = document.querySelector('#myModal4 .tag2');
 const modal4tag3 = document.querySelector('#myModal4 .tag3');
 const modal4tag4 = document.querySelector('#myModal4 .tag4');
 
-const card1Title = document.querySelector('#card1 h2');
-const card1Img = document.querySelector('#card1 #c-img1');
-const card1Desc = document.querySelector('#card1 .description');
-const card1tag1 = document.querySelector('#card1 .tag1');
-const card1tag2 = document.querySelector('#card1 .tag2');
-const card1tag3 = document.querySelector('#card1 .tag3');
-const card1tag4 = document.querySelector('#card1 .tag4');
-
-const card2Title = document.querySelector('#card2 h2');
-const card2Img = document.querySelector('#card2 #c-img2');
-const card2Desc = document.querySelector('#card2 .description');
-const card2tag1 = document.querySelector('#card2 .tag1');
-const card2tag2 = document.querySelector('#card2 .tag2');
-const card2tag3 = document.querySelector('#card2 .tag3');
-const card2tag4 = document.querySelector('#card2 .tag4');
-
-const card3Title = document.querySelector('#card3 h2');
-const card3Img = document.querySelector('#card3 #c-img3');
-const card3Desc = document.querySelector('#card3 .description');
-const card3tag1 = document.querySelector('#card3 .tag1');
-const card3tag2 = document.querySelector('#card3 .tag2');
-const card3tag3 = document.querySelector('#card3 .tag3');
-const card3tag4 = document.querySelector('#card3 .tag4');
-
-const card4Title = document.querySelector('#card4 h2');
-const card4Img = document.querySelector('#card4 #c-img4');
-const card4Desc = document.querySelector('#card4 .description');
-const card4tag1 = document.querySelector('#card4 .tag1');
-const card4tag2 = document.querySelector('#card4 .tag2');
-const card4tag3 = document.querySelector('#card4 .tag3');
-const card4tag4 = document.querySelector('#card4 .tag4');
 // js of my modal------------------------------------
 // Get the modal
 const modal1 = document.getElementById('myModal1');
