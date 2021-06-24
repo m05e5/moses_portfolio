@@ -24,8 +24,8 @@ const card1 = {
   tag2: 'Ruby on rails',
   tag3: 'css',
   tag4: 'javaScript',
-  githubLink: "https://github.com/m05e5/moses_portfolio/",
-  liveDemoLink: "https://m05e5.github.io/moses_portfolio/"
+  githubLink: 'https://github.com/m05e5/moses_portfolio/',
+  liveDemoLink: 'https://m05e5.github.io/moses_portfolio/',
 };
 const card2 = {
   title: 'Multi-Post Sorties',
@@ -35,8 +35,8 @@ const card2 = {
   tag2: 'Ruby on rails',
   tag3: 'css',
   tag4: 'javaScript',
-  githubLink: "https://github.com/m05e5/moses_portfolio/",
-  liveDemoLink: "https://m05e5.github.io/moses_portfolio/"
+  githubLink: 'https://github.com/m05e5/moses_portfolio/',
+  liveDemoLink: 'https://m05e5.github.io/moses_portfolio/',
 };
 const card3 = {
   title: 'Facebook 360',
@@ -46,8 +46,8 @@ const card3 = {
   tag2: 'Ruby on rails',
   tag3: 'css',
   tag4: 'javaScript',
-  githubLink: "https://github.com/m05e5/moses_portfolio/",
-  liveDemoLink: "https://m05e5.github.io/moses_portfolio/"
+  githubLink: 'https://github.com/m05e5/moses_portfolio/',
+  liveDemoLink: 'https://m05e5.github.io/moses_portfolio/',
 };
 const card4 = {
   title: 'Uber Navigator',
@@ -57,8 +57,8 @@ const card4 = {
   tag2: 'Ruby on rails',
   tag3: 'css',
   tag4: 'javaScript',
-  githubLink: "https://github.com/m05e5/moses_portfolio/",
-  liveDemoLink: "https://m05e5.github.io/moses_portfolio/"
+  githubLink: 'https://github.com/m05e5/moses_portfolio/',
+  liveDemoLink: 'https://m05e5.github.io/moses_portfolio/',
 };
 
 const card1Title = document.querySelector('#card1 h2');
