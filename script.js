@@ -24,6 +24,8 @@ const card1 = {
   tag2: 'Ruby on rails',
   tag3: 'css',
   tag4: 'javaScript',
+  githubLink: "https://github.com/m05e5/moses_portfolio/",
+  liveDemoLink: "https://m05e5.github.io/moses_portfolio/"
 };
 const card2 = {
   title: 'Multi-Post Sorties',
@@ -33,6 +35,8 @@ const card2 = {
   tag2: 'Ruby on rails',
   tag3: 'css',
   tag4: 'javaScript',
+  githubLink: "https://github.com/m05e5/moses_portfolio/",
+  liveDemoLink: "https://m05e5.github.io/moses_portfolio/"
 };
 const card3 = {
   title: 'Facebook 360',
@@ -42,6 +46,8 @@ const card3 = {
   tag2: 'Ruby on rails',
   tag3: 'css',
   tag4: 'javaScript',
+  githubLink: "https://github.com/m05e5/moses_portfolio/",
+  liveDemoLink: "https://m05e5.github.io/moses_portfolio/"
 };
 const card4 = {
   title: 'Uber Navigator',
@@ -51,6 +57,8 @@ const card4 = {
   tag2: 'Ruby on rails',
   tag3: 'css',
   tag4: 'javaScript',
+  githubLink: "https://github.com/m05e5/moses_portfolio/",
+  liveDemoLink: "https://m05e5.github.io/moses_portfolio/"
 };
 
 const card1Title = document.querySelector('#card1 h2');
@@ -127,6 +135,8 @@ const modal1tag1 = document.querySelector('#myModal1 .tag1');
 const modal1tag2 = document.querySelector('#myModal1 .tag2');
 const modal1tag3 = document.querySelector('#myModal1 .tag3');
 const modal1tag4 = document.querySelector('#myModal1 .tag4');
+const modal1live = document.querySelector('#myModal1 #live1');
+const modal1github = document.querySelector('#myModal1 #github1');
 
 const modal2Title = document.querySelector('#myModal2 h2');
 const modal2Img = document.querySelector('#myModal2 #pic2');
@@ -135,6 +145,8 @@ const modal2tag1 = document.querySelector('#myModal2 .tag1');
 const modal2tag2 = document.querySelector('#myModal2 .tag2');
 const modal2tag3 = document.querySelector('#myModal2 .tag3');
 const modal2tag4 = document.querySelector('#myModal2 .tag4');
+const modal2live = document.querySelector('#myModal2 #live2');
+const modal2github = document.querySelector('#myModal2 #github2');
 
 const modal3Title = document.querySelector('#myModal3 h2');
 const modal3Img = document.querySelector('#myModal3 #pic3');
@@ -143,6 +155,8 @@ const modal3tag1 = document.querySelector('#myModal3 .tag1');
 const modal3tag2 = document.querySelector('#myModal3 .tag2');
 const modal3tag3 = document.querySelector('#myModal3 .tag3');
 const modal3tag4 = document.querySelector('#myModal3 .tag4');
+const modal3live = document.querySelector('#myModal3 #live3');
+const modal3github = document.querySelector('#myModal3 #github3');
 
 const modal4Title = document.querySelector('#myModal4 h2');
 const modal4Img = document.querySelector('#myModal4 #pic4');
@@ -151,6 +165,8 @@ const modal4tag1 = document.querySelector('#myModal4 .tag1');
 const modal4tag2 = document.querySelector('#myModal4 .tag2');
 const modal4tag3 = document.querySelector('#myModal4 .tag3');
 const modal4tag4 = document.querySelector('#myModal4 .tag4');
+const modal4live = document.querySelector('#myModal4 #live4');
+const modal4github = document.querySelector('#myModal4 #github4');
 
 // js of my modal------------------------------------
 // Get the modal
@@ -181,6 +197,8 @@ btn1.onclick = function () {
   modal1tag2.textContent = card1.tag2;
   modal1tag3.textContent = card1.tag3;
   modal1tag4.textContent = card1.tag4;
+  modal1live.href = card1.liveDemoLink;
+  modal1github.href = card1.githubLink;
 };
 
 btn2.onclick = function () {
@@ -192,6 +210,8 @@ btn2.onclick = function () {
   modal2tag2.textContent = card2.tag2;
   modal2tag3.textContent = card2.tag3;
   modal2tag4.textContent = card2.tag4;
+  modal2live.href = card2.liveDemoLink;
+  modal2github.href = card2.githubLink;
 };
 
 btn3.onclick = function () {
@@ -203,6 +223,8 @@ btn3.onclick = function () {
   modal3tag2.textContent = card3.tag2;
   modal3tag3.textContent = card3.tag3;
   modal3tag4.textContent = card3.tag4;
+  modal4live.href = card4.liveDemoLink;
+  modal4github.href = card4.githubLink;
 };
 
 btn4.onclick = function () {
@@ -214,6 +236,8 @@ btn4.onclick = function () {
   modal4tag2.textContent = card4.tag2;
   modal4tag3.textContent = card4.tag3;
   modal4tag4.textContent = card4.tag4;
+  modal4live.href = card4.liveDemoLink;
+  modal4github.href = card4.githubLink;
 };
 
 // When the user clicks on <span> (x), close the modal
