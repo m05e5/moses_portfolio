@@ -336,6 +336,9 @@ ul {
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 8px;
+}
+
+.contact-button {
   margin-left: 2rem;
   margin-right: 2rem;
 }
