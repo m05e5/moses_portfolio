@@ -120,8 +120,6 @@ h1 {
 
 .let {
   color: #1a31ff;
-  font-family: sans-serif;
-  letter-spacing: 1.5px;
 }
 
 a {
@@ -164,10 +162,14 @@ ul {
 }
 
 .nav-link-div {
-  display: flex;
+  display: none;
   margin: 1px;
   padding-right: 1rem;
   margin-right: 5rem;
+}
+
+.new-nav-display {
+  display: flex;
 }
 
 .nav-link {
@@ -336,6 +338,11 @@ ul {
   border-radius: 8px;
 }
 
+.contact-button {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .button:hover {
   background-color: #6070ff;
   color: white;
@@ -397,7 +404,7 @@ ul {
 .contact-me {
   display: flex;
   flex-direction: column;
-  background-color: #6070ff;
+  background-color: #132bfd;
   align-items: center;
   justify-content: center;
   color: white;
@@ -480,12 +487,73 @@ p {
 .skill-title {
   font-family: sans-serif;
   font-size: 20px;
-  letter-spacing: 0.1px;
-  color: #344563;
 }
 
 .skill-arrow {
   float: right;
+}
+
+/* styling of my modal ------------------------------------------ */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-pics {
+  width: 100%;
+  height: 100%;
+}
+
+.modal-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(231, 231, 231);
+}
+
+.modal-icon {
+  color: #6070ff;
+}
+
+.modal-links {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  border-radius: 15px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 992px) {
@@ -589,5 +657,64 @@ p {
 
   h1 {
     font-size: 48px;
+  }
+
+  /* styling of my modal ------------------------------------------ */
+  .modal-pics {
+    width: 80%;
+    height: 500px;
+  }
+
+  .modal-img-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal-divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(231, 231, 231);
+  }
+
+  .modal-details {
+    display: flex;
+  }
+
+  .modal-details p {
+    width: 61%;
+    padding: 1rem;
+  }
+
+  .modal-links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 15px;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
