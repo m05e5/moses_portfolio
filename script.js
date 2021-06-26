@@ -172,7 +172,7 @@ const modaltag4 = document.querySelector('#myModal .tag4');
 const modallive = document.querySelector('#myModal #live1');
 const modalgithub = document.querySelector('#myModal #github1');
 
-// js of my modal------------------------------------
+// js of my modal-------------------------------------
 // Get the modal
 const modal = document.getElementById('myModal');
 
@@ -191,10 +191,10 @@ btn1.onclick = function () {
   modalTitle.textContent = cards[0].title;
   modalDesc.textContent = cards[0].description;
   modalImg.src = cards[0].img;
-  modaltag1.textContent = cards[0].tag1;
-  modaltag2.textContent = cards[0].tag2;
-  modaltag3.textContent = cards[0].tag3;
-  modaltag4.textContent = cards[0].tag4;
+  modaltag1.textContent = cards[0].tags[0];
+  modaltag2.textContent = cards[0].tags[1];
+  modaltag3.textContent = cards[0].tags[2];
+  modaltag4.textContent = cards[0].tags[3];
   modallive.href = cards[0].liveDemoLink;
   modalgithub.href = cards[0].githubLink;
 };
@@ -204,10 +204,10 @@ btn2.onclick = function () {
   modalTitle.textContent = cards[1].title;
   modalDesc.textContent = cards[1].description;
   modalImg.src = cards[1].img;
-  modaltag1.textContent = cards[1].tag1;
-  modaltag2.textContent = cards[1].tag2;
-  modaltag3.textContent = cards[1].tag3;
-  modaltag4.textContent = cards[1].tag4;
+  modaltag1.textContent = cards[1].tags[0];
+  modaltag2.textContent = cards[1].tags[1];
+  modaltag3.textContent = cards[1].tags[2];
+  modaltag4.textContent = cards[1].tags[3];
   modallive.href = cards[1].liveDemoLink;
   modalgithub.href = cards[1].githubLink;
 };
@@ -217,10 +217,10 @@ btn3.onclick = function () {
   modalTitle.textContent = cards[2].title;
   modalDesc.textContent = cards[2].description;
   modalImg.src = cards[2].img;
-  modaltag1.textContent = cards[2].tag1;
-  modaltag2.textContent = cards[2].tag2;
-  modaltag3.textContent = cards[2].tag3;
-  modaltag4.textContent = cards[2].tag4;
+  modaltag1.textContent = cards[2].tags[0];
+  modaltag2.textContent = cards[2].tags[1];
+  modaltag3.textContent = cards[2].tags[2];
+  modaltag4.textContent = cards[2].tags[3];
   modallive.href = cards[3].liveDemoLink;
   modalgithub.href = cards[3].githubLink;
 };
@@ -230,10 +230,10 @@ btn4.onclick = function () {
   modalTitle.textContent = cards[3].title;
   modalDesc.textContent = cards[3].description;
   modalImg.src = cards[3].img;
-  modaltag1.textContent = cards[3].tag1;
-  modaltag2.textContent = cards[3].tag2;
-  modaltag3.textContent = cards[3].tag3;
-  modaltag4.textContent = cards[3].tag4;
+  modaltag1.textContent = cards[3].tags[0];
+  modaltag2.textContent = cards[3].tags[1];
+  modaltag3.textContent = cards[3].tags[2];
+  modaltag4.textContent = cards[3].tags[3];
   modallive.href = cards[3].liveDemoLink;
   modalgithub.href = cards[3].githubLink;
 };
