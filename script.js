@@ -172,7 +172,7 @@ const modaltag4 = document.querySelector('#myModal .tag4');
 const modallive = document.querySelector('#myModal #live1');
 const modalgithub = document.querySelector('#myModal #github1');
 
-// js of my modal------------------------------------
+// js of my modal-------------------------------------
 // Get the modal
 const modal = document.getElementById('myModal');
 
